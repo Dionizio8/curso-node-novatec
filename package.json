@@ -1,0 +1,32 @@
+{
+    "name": "novatec",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sabado.js",
+    "scripts": {
+        "eslint": "eslint server/** --fix",
+        "start": "./script.sh start",
+        "test": "./script.sh test"
+    },
+    "author": "Gabriel Dionizio Pereira",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.0",
+        "bluebird": "^3.7.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-validator": "^6.2.0",
+        "jwt-simple": "^0.5.6",
+        "mongojs": "^2.6.0",
+        "redis": "^2.8.0"
+    },
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "mocha": "^6.2.1",
+        "nodemon": "^1.19.3",
+        "nyc": "^14.1.1",
+        "supertest": "^4.0.2"
+    }
+}
