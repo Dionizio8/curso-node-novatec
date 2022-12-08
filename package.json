@@ -13,8 +13,8 @@
     "dependencies": {
         "axios": "^0.19.0",
         "bluebird": "^3.7.0",
-        "body-parser": "^1.19.0",
-        "express": "^4.17.1",
+        "body-parser": "^1.20.1",
+        "express": "^4.18.2",
         "express-validator": "^6.2.0",
         "jwt-simple": "^0.5.6",
         "mongojs": "^2.6.0",
